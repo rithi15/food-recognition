@@ -35,7 +35,7 @@
             <form id="file-upload" action = "{{ url_for('analyze') }}" method = "POST" enctype="multipart/form-data">
               <div class="row">
                 <div class="col-md-3">
-<!--                   <div id="canvas-tools" class="panel panel-default">
+                  <div id="canvas-tools" class="panel panel-default">
                     <div class="panel-body">
                       <div id="threshold-text">
                         <b>IOU Threshold:</b>
@@ -43,11 +43,11 @@
                       </div>
                       <input id="threshold-range" type="range" min="0" max="100" value="50" class="slider" name="threshold-range">
                     </div>
-                  </div> -->
+                  </div>
                 </div>
 
                 <div class="col-md-3">
-<!--                   <div id="canvas-tools" class="panel panel-default">
+                  <div id="canvas-tools" class="panel panel-default">
                     <div class="panel-body">
                       <div id="confidence-text">
                         <b>Confidence:</b>
@@ -55,7 +55,7 @@
                       </div>
                       <input id="confidence-range" type="range" min="0" max="100" value="15" class="slider" name="confidence-range">
                     </div>
-                  </div> -->
+                  </div>
                 </div>
                 <div class="col-md-3">
                   <div class="form-group">
@@ -63,9 +63,9 @@
                     <br/>
                     <select name="model-types" class="form-control-sm" id="model-types">
                       <option>YOLOv5s</option>
-                      <option>YOLOv5m</option>
+<!--                       <option>YOLOv5m</option>
                       <option>YOLOv5l</option>
-                      <option>YOLOv5x</option>
+                      <option>YOLOv5x</option> -->
                     </select>
                   </div>
                 </div>
